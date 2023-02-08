@@ -37,7 +37,7 @@ function App() {
     <BrowserRouter>
     <ScrollToTop />
       <HeaderComponent />
-      <Routes>
+      <Routes className="bodyPart">
         
           {/* publicly available routes: */}
           <Route path="/" element={<HomePage />} />
