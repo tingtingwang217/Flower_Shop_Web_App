@@ -6,7 +6,7 @@ const ProductCarouselComponent = () => {
     cursor: "pointer",
   };
   return (
-    <Carousel classNmae="bodyPart">
+    <Carousel>
       <Carousel.Item>
         <img
           crossorigin="anonymous"
@@ -17,7 +17,7 @@ const ProductCarouselComponent = () => {
         />
         <Carousel.Caption>
           <LinkContainer style={cursorP} to="/product-list/category/Rose">
-            <h3>Rose</h3>
+            <h3 classNmae="bodyPart">Rose</h3>
           </LinkContainer>
           
         </Carousel.Caption>
@@ -32,7 +32,7 @@ const ProductCarouselComponent = () => {
         />
         <Carousel.Caption>
           <LinkContainer style={cursorP} to="/product-list/category/Orchid">
-            <h3>Orchid</h3>
+            <h3 classNmae="bodyPart">Orchid</h3>
           </LinkContainer>
 
         </Carousel.Caption>
@@ -47,7 +47,7 @@ const ProductCarouselComponent = () => {
         />
         <Carousel.Caption>
           <LinkContainer style={cursorP} to="/product-list/category/Lily">
-            <h3>Lily</h3>
+            <h3 classNmae="bodyPart">Lily</h3>
           </LinkContainer>
 
         </Carousel.Caption>
