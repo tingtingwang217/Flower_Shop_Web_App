@@ -6,7 +6,7 @@ const ProductCarouselComponent = () => {
     cursor: "pointer",
   };
   return (
-    <Carousel>
+    <Carousel classNmae="bodyPart">
       <Carousel.Item>
         <img
           crossorigin="anonymous"
