@@ -11,7 +11,7 @@
       "dev": "concurrently --kill-others-on-fail \"npm run server-dev\" \"npm run client\"",
       "seed:data": "node seeder/seeder",
       "seed:data-d": "node seeder/seeder -d",
-      "heroku-postbuild": "npm install --prefix frontend --force&& npm run build --prefix frontend"
+      "heroku-postbuild": "npm install --prefix frontend&& npm run build --prefix frontend"
     },
     "author": "",
     "license": "ISC",
