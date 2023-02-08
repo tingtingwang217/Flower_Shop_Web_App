@@ -47,7 +47,7 @@ const EditUserPageComponent = ({ updateUserApiRequest, fetchUser }) => {
     }, [id])
 
   return (
-    <Container>
+    <Container className="bodyPart">
       <Row className="justify-content-md-center mt-5">
         <Col md={1}>
           <Link to="/admin/users" className="btn btn-info my-3">

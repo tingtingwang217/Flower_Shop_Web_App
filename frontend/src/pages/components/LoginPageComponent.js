@@ -45,7 +45,7 @@ const LoginPageComponent = ({ loginUserApiRequest,reduxDispatch, setReduxUserSta
   };
   
   return (
-    <Container>
+    <Container className="bodyPart">
       <Row className="mt-5 justify-content-md-center">
         <Col md={6}>
           <h1>Login</h1>

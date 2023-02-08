@@ -33,7 +33,7 @@ const ProductsPageComponent = ({ fetchProducts, deleteProduct }) => {
   }, [productDeleted]);
 
   return (
-    <Row className="m-5">
+    <Row className="m-5 bodyPart">
       <Col md={2}>
         <AdminLinksComponent />
       </Col>

@@ -33,7 +33,7 @@ const UsersPageComponent = ({ fetchUsers, deleteUser }) => {
   }, [userDeleted]);
 
   return (
-    <Row className="m-5">
+    <Row className="m-5 bodyPart">
       <Col md={2}>
         <AdminLinksComponent />
       </Col>

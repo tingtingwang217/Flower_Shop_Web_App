@@ -50,7 +50,7 @@ const OrderDetailsPageComponent = ({ getOrder, markAsDelivered }) => {
       );
   }, [isDelivered, id]);
   return (
-    <Container fluid>
+    <Container className="bodyPart" fluid>
       <Row className="mt-4">
         <h1>Order Details</h1>
         <Col md={8}>
