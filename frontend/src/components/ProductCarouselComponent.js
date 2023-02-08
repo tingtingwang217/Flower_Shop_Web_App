@@ -17,7 +17,7 @@ const ProductCarouselComponent = () => {
         />
         <Carousel.Caption>
           <LinkContainer style={cursorP} to="/product-list/category/Rose">
-            <h3 classNmae="bodyPart">Rose</h3>
+            <h3 className="bodyPart">Rose</h3>
           </LinkContainer>
           
         </Carousel.Caption>
@@ -32,7 +32,7 @@ const ProductCarouselComponent = () => {
         />
         <Carousel.Caption>
           <LinkContainer style={cursorP} to="/product-list/category/Orchid">
-            <h3 classNmae="bodyPart">Orchid</h3>
+            <h3 className="bodyPart">Orchid</h3>
           </LinkContainer>
 
         </Carousel.Caption>
@@ -47,7 +47,7 @@ const ProductCarouselComponent = () => {
         />
         <Carousel.Caption>
           <LinkContainer style={cursorP} to="/product-list/category/Lily">
-            <h3 classNmae="bodyPart">Lily</h3>
+            <h3 className="bodyPart">Lily</h3>
           </LinkContainer>
 
         </Carousel.Caption>
