@@ -20,7 +20,7 @@ const CartPageComponent = ({
   }
 
   return (
-    <Container className="bodyPart" fluid>
+    <Container className="bodyPart footPad" fluid>
       <Row className="mt-4">
         <Col md={8}>
           <h1>Shopping Cart</h1>

@@ -63,7 +63,7 @@ const RegisterPageComponent = ({
     setValidated(true);
   };
   return (
-    <Container className="bodyPart">
+    <Container className="bodyPart footPad">
       <Row className="mt-5 justify-content-md-center">
         <Col md={6}>
           <h1>Register</h1>

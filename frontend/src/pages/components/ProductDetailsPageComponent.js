@@ -99,7 +99,7 @@ const ProductDetailsPageComponent = ({
   };
 
   return (
-    <Container className="bodyPart">
+    <Container className="bodyPart footPad">
       <AddedToCartMessageComponent
         showCartMessage={showCartMessage}
         setShowCartMessage={setShowCartMessage}

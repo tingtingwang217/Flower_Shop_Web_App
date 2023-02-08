@@ -3,7 +3,7 @@ import { Button } from "react-bootstrap";
 
 const AboutPageComponent = () => {
   return (
-    <div className="aboutPart">
+    <div className="aboutPart footPad">
       <h2 className="aboutTitle">About Us</h2>
       <p className="aboutText">Flower is a symbol of love and care. They are 
       great to celebrate a special occasion and communicate 

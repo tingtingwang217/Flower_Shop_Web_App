@@ -79,7 +79,7 @@ import {
       }
   
     return (
-      <Container className="bodyPart" fluid>
+      <Container className="bodyPart footPad" fluid>
         <Row className="mt-4">
           <h1>Cart Details</h1>
           <Col md={8}>
