@@ -31,7 +31,7 @@ const AboutPageComponent = () => {
         </table>
       </div>
 
-      <div>
+      <div className="contactPad">
         <h2 className="aboutTitle">Contact Us</h2>
         <Button
           onClick={() =>

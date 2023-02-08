@@ -19,7 +19,7 @@ const OrdersPageComponent = ({ getOrders }) => {
   }, []);
   
   return (
-    <Row className="m-5 bodyPart">
+    <Row className="m-5 bodyPart footPad">
       <Col md={2}>
         <AdminLinksComponent />
       </Col>
